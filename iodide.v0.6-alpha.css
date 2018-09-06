@@ -2881,7 +2881,7 @@ div#panes-container {
 
 div#editor-react-root{
   /* this prevents the resizer from getting too wide and covering the eval frame*/
-  max-width: calc(100% - 300px);
+  max-width: calc(100%);
 }
 
 div#cells-resizer {
@@ -2895,10 +2895,6 @@ div#cells {
   box-sizing: border-box;
   /*height: 100%;*/
   overflow-y: auto;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 20px;
   border-right: 2px solid lightgray;
 }
 
@@ -3320,22 +3316,5 @@ div.main-component.SCROLL div.CodeMirror div.CodeMirror-scroll {
 
 .cm-s-eclipse .CodeMirror-matchingbracket {
   outline: 1px dotted #000;
-}.help-modal-contents {
-    overflow: auto;
-    padding: 20px;
 }
-
-.key-combo-column {
-    text-align: right;
-    padding: 4px 11px 0px 0px;
-}
-
-.key-combo-pill {
-    margin: 0px;
-    border: #ccc solid 1px;
-    display: inline;
-    padding: 2px ;
-    background: #f9f9f9;
-}
-
 /*# sourceMappingURL=iodide.v0.6-alpha.css.map*/
